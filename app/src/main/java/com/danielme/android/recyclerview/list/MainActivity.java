@@ -40,9 +40,9 @@ public class MainActivity extends AppCompatActivity {
             }
         }));
         //VERTICAL
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+      //  recyclerView.setLayoutManager(new LinearLayoutManager(this));
         //HORIZONTAL
-        //recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         recyclerView.addItemDecoration(new DividerItemDecoration(this));
 
     }
